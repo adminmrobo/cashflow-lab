@@ -1,0 +1,140 @@
+{
+ "version": "1.0",
+ "made": "2026-11-24",
+ "via": "rehang-2026-11-24",
+ "domains": [
+  "acct",
+  "fin"
+ ],
+ "note": "분야 뼈대 주제에 다시 걸기(ai-lab-retrofit 15장). links는 자동 후보이며 틀린 줄은 지우면 된다. 빌드 스크립트가 있는 저장소는 빌드 끝에 rehang.apply_overlay()가 이 파일을 적용한다.",
+ "topics": {
+  "lab:topic/cf-activities": {
+   "ko": "영업·투자·재무 활동",
+   "en": "Operating, investing and financing activities",
+   "domain": [
+    "acct"
+   ],
+   "level": 2
+  },
+  "lab:topic/direct-indirect-method": {
+   "ko": "직접법·간접법",
+   "en": "Direct and indirect methods",
+   "domain": [
+    "acct"
+   ],
+   "level": 2
+  },
+  "lab:topic/fair-value": {
+   "ko": "공정가치",
+   "en": "Fair value",
+   "domain": [
+    "acct"
+   ],
+   "level": 3
+  },
+  "lab:topic/financial-ratios": {
+   "ko": "수익성·안정성·활동성 비율",
+   "en": "Profitability, solvency and activity ratios",
+   "domain": [
+    "acct"
+   ],
+   "level": 2
+  },
+  "lab:topic/recognition-measurement": {
+   "ko": "인식·측정",
+   "en": "Recognition and measurement",
+   "domain": [
+    "acct"
+   ],
+   "level": 1
+  },
+  "lab:topic/share-capital": {
+   "ko": "자본금",
+   "en": "Share capital",
+   "domain": [
+    "acct"
+   ],
+   "level": 2
+  }
+ },
+ "links": {
+  "lab:concept/accrual-basis": {
+   "topic": "lab:topic/recognition-measurement",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "발생주의"
+  },
+  "lab:concept/cash-equivalents": {
+   "topic": "lab:topic/cf-activities",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "현금성자산"
+  },
+  "lab:concept/cash-flow-statement": {
+   "topic": "lab:topic/cf-activities",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "현금흐름표"
+  },
+  "lab:concept/equity-issuance": {
+   "topic": "lab:topic/share-capital",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "유상증자"
+  },
+  "lab:concept/fair-value-loss": {
+   "topic": "lab:topic/fair-value",
+   "score": 2,
+   "why": "주제 이름이 개념 이름에 들어 있음",
+   "ko": "공정가치 평가손실"
+  },
+  "lab:concept/financing-activities": {
+   "topic": "lab:topic/cf-activities",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "재무활동"
+  },
+  "lab:concept/investing-activities": {
+   "topic": "lab:topic/cf-activities",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "투자활동"
+  },
+  "lab:concept/lifecycle-pattern": {
+   "topic": "lab:topic/financial-ratios",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "현금흐름 생애주기 패턴"
+  },
+  "lab:concept/non-cash-expense": {
+   "topic": "lab:topic/direct-indirect-method",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "비현금비용"
+  },
+  "lab:concept/operating-activities": {
+   "topic": "lab:topic/cf-activities",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "영업활동"
+  },
+  "lab:concept/working-capital-change": {
+   "topic": "lab:topic/direct-indirect-method",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "운전자본 변동"
+  },
+  "lab:method/direct-method": {
+   "topic": "lab:topic/direct-indirect-method",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "직접법"
+  },
+  "lab:method/indirect-method": {
+   "topic": "lab:topic/direct-indirect-method",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "간접법"
+  }
+ }
+}
